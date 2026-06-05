@@ -13,8 +13,10 @@ const font = Lora({
   subsets: ["latin"],
   weight: ["400"],
 });
-
-
+const fadeUpVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0 },
+};
 const SixthSection = () => {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const { ref: sectionRef, inView: sectionInView } = useInView({ triggerOnce: true, threshold: 0.1 });
