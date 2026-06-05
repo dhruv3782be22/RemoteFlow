@@ -207,7 +207,7 @@ const FourthSection = () => {
   />
   <div className="text-center">
     <div className={`text-sm font-medium pt-4`}>
-      Dipesh Dahiya
+      Dhruv Malhotra
     </div>
     <div className={`text-sm `}>
       Creator and Manager of RemoteFlow
